@@ -2,7 +2,8 @@
   "extends": "@react-native/typescript-config/tsconfig.json",
   "compilerOptions": {
     "typeRoots": ["node_modules/@types", "src/types"],
-    "types": ["jest"],
+    "types": ["jest", "react", "react-native"],
+    "jsx": "react-jsx",
     "baseUrl": "./",
     "paths": {
       "@assets/*": ["src/assets/*"],

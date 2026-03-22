@@ -1,12 +1,9 @@
-import { View, Text } from 'react-native';
+import Navigation from '@navigation/Navigation';
 import React from 'react';
+import '@unistyles/unistyles';
 
 const App = () => {
-  return (
-    <View>
-      <Text>App</Text>
-    </View>
-  );
+  return <Navigation />;
 };
 
 export default App;
